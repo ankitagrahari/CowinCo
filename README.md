@@ -16,3 +16,5 @@ Tech Stack:
  - Spring boot 2.3.1_RELEASE
  - Apache HTTPClient 4.5.13
  - Maven 3.2.1
+
+Reference: https://apisetu.gov.in/public/api/cowin#/
