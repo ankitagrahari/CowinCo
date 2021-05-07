@@ -11,3 +11,8 @@ Endpoints:
  3. cowin/young/pins=pincode1,pincode2,pincode3/date=date1
  e.g. http://localhost:8083/cowin/young/pins=221001,221002,221003,221004,221005/date=07-05-2021
 
+Tech Stack:
+ - Java 11
+ - Spring boot 2.3.1_RELEASE
+ - Apache HTTPClient 4.5.13
+ - Maven 3.2.1
