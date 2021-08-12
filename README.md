@@ -17,14 +17,14 @@ Services:
  Endpoint: cowin/young/pins=pincode1,pincode2,pincode3/date=date1  
  e.g. http://localhost:8083/cowin/young/pins=221001,221002,221003,221004,221005/date=07-05-2021  
 
- 4. getSystemHealth
- Description: Gets the system health metrics like Computer hardware, model, firmware, Memory details and check Window update services running status
- Endpoint: cowin/system
- e.g. http://localhost:8083/cowin/system
+ 4. getSystemHealth  
+ Description: Gets the system health metrics like Computer hardware, model, firmware, Memory details and check Window update services running status.  
+ Endpoint: cowin/system  
+ e.g. http://localhost:8083/cowin/system  
  
- 5. Prometheus is also integrated
- Description: Once the prometheus is installed and running, the endpoint can be accessed to get the real time health status of this application.
- Endpoint: /actuator/prometheus
+ 5. Prometheus is also integrated  
+ Description: Once the prometheus is installed and running, the endpoint can be accessed to get the real time health status of this application.  
+ Endpoint: /actuator/prometheus  
  e.g.: http://localhost:8083/actuator/prometheus
  
  
