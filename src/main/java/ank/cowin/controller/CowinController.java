@@ -28,6 +28,10 @@ public class CowinController {
         return "HELLO!!";
     }
 
+    /**
+     * Get the system hardware information
+     * @return
+     */
     @ResponseBody
     @RequestMapping(value = "/system", method = RequestMethod.GET)
     public Map<String, String> getSystemDetails(){
